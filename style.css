@@ -14,6 +14,7 @@
     background: #2500f9;
     color: #fff;
     border-radius: 40px;
+    text-decoration: none;
 }
 .header{
     height: 150px;
@@ -53,7 +54,32 @@
     margin-left: 55px;
 }
 
+.welcome__wrap{
+    display: flex;
+    align-items: center;
+}
+.welcome__info{
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
+}
+.awards{
+    background: #616368;
+    display: flex;
+    align-items: center;
+}
+.awards__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #feaa25;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+
+}
 
 
 
